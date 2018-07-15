@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+  }
+  body {
+     width: 800px;
+     height: 100%;
+     background-color: rgb(250, 244, 240);
+    
+  }
+  header {
+      background-color: rgb(255, 145, 111);
+      padding-left: 85px;
+      border: 15px solid pink;
+      border-width: medium;
+      border-style: double;
+      margin-bottom: 20px;
+      font-size: 25px;
+      display: block;
+  }
+  nav {
+      float: left;
+      width: 25%;
+      border-right-style: dotted;
+      border-right-color:  rgb(250, 157, 172);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.4;
+    font-weight: thin;
+    font-stretch: ultra-expanded;
+    font-variant: small-caps;
+    font-size: 25px;
+       
+  }
+  nav ul {
+      padding: 20px;
+      float: right;
+      list-style-type: none;
+  }
+  nav li {
+      float: left;
+  }
+  nav li a {
+      display: block;
+      height: 45px;
+      padding: 18px 15px 10px 15px;
+      vertical-align: middle;
+  }
+  a {
+      color: rgb(250, 157, 172);
+      padding-block-start: 10px
+  }
+  section {
+      width: 73%;
+      display: inline-block;
+      float: right;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.4;
+    font-weight: normal;
+    font-stretch: ultra-expanded;
+    font-variant: small-caps;
+    font-size: 25px;
+  }
+  
+  aside {
+      width: 25%;
+      display: inline-block;
+      background-color:rgb(250, 157, 172);
+      padding:20px;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color:;
+      color:;
+      clear: both;
+      display: block;
+  }
